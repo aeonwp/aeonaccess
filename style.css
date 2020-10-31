@@ -1308,6 +1308,10 @@ a:active {
 .widget {
 	margin: 0 0 1.5em;
 	word-break: break-word;
+	background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    border: 1px solid #ebebeb;
 }
 
 .widget:last-of-type {
@@ -1365,7 +1369,7 @@ a:active {
 .textwidget,
 .widget>ul,
 .widget-title {
-	padding: 20px 30px;
+	padding: 20px 0;
 }
 
 .widget_recent_entries ul li a {
@@ -1378,7 +1382,12 @@ a:active {
 .widget_nav_menu ul li {
 	word-break: break-word;
 }
-
+.recentcomments, 
+.widget_categories li, 
+.widget_recent_entries li {
+    position: relative;
+    padding-left: 16px!important;
+}
 .widget_categories ul li a,
 .widget_meta ul li a,
 .widget_recent_entries ul li a,
@@ -1390,7 +1399,19 @@ a:active {
 .widget .entry-meta ul li a {
 	text-transform: capitalize;
 }
-
+.recentcomments::before, 
+.widget_categories li::before, 
+.widget_recent_entries li::before {
+	content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    background-color: #000000;
+    opacity: .2;
+    margin-top: 15px;
+}
 .recentcomments a {
 	display: inline !important;
 	padding: 0 !important;
@@ -1398,7 +1419,7 @@ a:active {
 }
 
 .widget_search {
-	padding: 20px 30px;
+	padding: 0;
 	position: relative;
 }
 
@@ -1409,15 +1430,15 @@ a:active {
 .widget_search .search-form .search-field {
 	height: 52px;
 	padding: 6px 20px;
-	border: 1px solid #eee;
-	border-radius: 0;
+	border:0;
+	border-radius: 5px;
 	width: 100%;
 }
 
 .widget_search form input[type="submit"] {
 	position: absolute;
-	top: 20px;
-	right: 30px;
+	top: 0;
+	right: 0;
 	padding: 16px 19px 16px 19px;
 }
 
@@ -2159,6 +2180,10 @@ body:not(.both-sidebars) .blog-wrapper {
 	-o-transition: 500ms;
 	transition: 500ms;
 	background: #000;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	opacity: 0.8;
 }
 
 #toTop:hover {
@@ -2167,11 +2192,11 @@ body:not(.both-sidebars) .blog-wrapper {
 
 .go-to-top {
 	line-height: 2;
-	display: none;
-	position: fixed;
-	bottom: 45px;
-	right: 15px;
-	padding: 5px 15px 0 15px;
+    display: none;
+    position: fixed;
+    bottom: 45px;
+    right: 20px;
+    padding: 5px 10px 0 10px;
 }
 
 .gotop span i {
