@@ -773,11 +773,12 @@ a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	z-index: 9;
-	margin: 0;
-	padding: 1em;
+	margin: 0 auto;
+	padding: 1em 0;
 	font-size: 0.8em;
 	text-transform: uppercase;
 	font-weight: 700;
+	max-width: 1200px;
 }
 
 .main-navigation ul {
@@ -803,8 +804,11 @@ a:active {
 	transition: all 1.1s ease;
 	width: auto;
 	text-decoration: none;
-	padding: 15px 20px 3px 20px;
+	padding: 15px 20px;
 	border-bottom: 2px solid transparent;
+}
+.main-navigation li:first-child a{
+	padding-left: 0;
 }
 
 .main-navigation a:hover,
@@ -910,6 +914,9 @@ a:active {
 }
 
 @media screen and (max-width: 768px) {
+	.main-navigation{
+		max-width: 100%;
+	}
 	#mobile-menu-toggle {
 		cursor: pointer;
 		display: inline-block;
@@ -1351,7 +1358,7 @@ a:active {
 }
 
 .widget ul li {
-	margin-left: 20px;
+	margin-left: 0;
 	margin-bottom: .5em;
 	position: relative;
 }
@@ -1723,17 +1730,18 @@ object {
 }
 
 .site-branding {
-	margin: 0 1.5em 1.5em 1.5em;
-	width: 100%;
+	margin: 1.5em auto;
+	max-width: 1200px;
 	text-align: left;
 }
 
-@media screen and (min-width: 768px) {
-	.site-branding {
-		margin: 1.5em 1.5em 1.5em 3em;
+@media screen and (max-width: 768px) {
+	.site-branding{
+		max-width: 100%;
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 }
-
 .site-title,
 .site-description {
 	text-transform: uppercase;
@@ -1763,9 +1771,8 @@ object {
 	.home .site-description {
 		font-size: 2em;
 		font-weight: 700;
-		width: 30%;
-		margin-top: 2em;
-		line-height: 1.2;
+		width: 50%;
+		margin-top: 0;
 	}
 }
 
@@ -1776,7 +1783,7 @@ object {
 	}
 
 	.home .site-description {
-		font-size: 3em;
+		font-size: 2em;
 	}
 }
 
@@ -1816,6 +1823,11 @@ body:not(.both-sidebars) .blog-wrapper {
 	padding: 1.5em;
 	overflow: hidden;
 	text-align: left;
+	background-color: #fff;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    border: 1px solid #ebebeb;
 }
 
 .blog.two-column .post-wrapper {
@@ -1884,7 +1896,7 @@ body:not(.both-sidebars) .blog-wrapper {
 
 @media screen and (min-width: 768px) {
 	.entry-header .entry-title {
-		font-size: 3em;
+		font-size: 2.5em;
 	}
 }
 
@@ -2021,7 +2033,7 @@ body:not(.both-sidebars) .blog-wrapper {
 }
 
 .breadcrumbs {
-	padding: 20px;
+	padding: 20px 0;
 }
 
 .breadcrumb ul {
@@ -2426,7 +2438,7 @@ body:not(.both-sidebars) .blog-wrapper {
 }
 
 .related-post-entries .entry-title {
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: 700;
 	text-transform: uppercase;
 }
