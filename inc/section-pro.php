@@ -14,7 +14,7 @@ class AeonAccess_Customize_Section_Pro extends WP_Customize_Section {
 	 * @access public
 	 * @var    string
 	 */
-	public $type = 'aeonacess_plus';
+	public $type = 'aeonaccess_plus';
 
 	/**
 	 * Custom button text to output.
@@ -24,16 +24,7 @@ class AeonAccess_Customize_Section_Pro extends WP_Customize_Section {
 	 * @var    string
 	 */
 	public $pro_text = '';
-
-	/**
-	 * Custom pro button URL.
-	 *
-	 * @since  1.0.0
-	 * @access public
-	 * @var    string
-	 */
 	public $pro_url = '';
-
 	/**
 	 * Add custom parameters to pass to the JS via JSON.
 	 *

@@ -62,7 +62,7 @@ final class AeonAccess_Customize {
 	public function sections( $manager ) {
 
 		// Load custom sections.
-		require_once( trailingslashit( get_template_directory() ) . 'inc/class-section-pro.php' );
+		require_once( trailingslashit( get_template_directory() ) . 'inc/section-pro.php' );
 
 		// Register custom section types.
 		$manager->register_section_type( 'AeonAccess_Customize_Section_Pro' );

@@ -1,7 +1,7 @@
 === Aeon Access ===
 Contributors: aeontheme
 Requires at least: 5.0
-Tested up to: 5.3
+Tested up to: 5.5
 Requires PHP: 5.6
 Stable tag: 1.0.0
 License:      GNU General Public License v2 or later
@@ -23,7 +23,7 @@ This is a complete WordPress theme for bloggers.
 
 = How can I request help with the theme? =
 
-You can use email us at support@aeonwp.com.
+You can use email us at aeonwpofficial@gmail.com.
 
 = How do I change the width of the site? =
 
@@ -47,12 +47,14 @@ And include the following to also increase the width of the main content.
 = Can you add more features? =
 
 We would love to hear your ideas.
-You can use email us at support@aeonwp.com
+You can use email us at aeonwpofficial@gmail.com
 
 == Changelog ==
+= 1.0.1 - October 20 2020 =
+* Released on WordPress.Org 
 
-= 1.0.0 - Janruary 28 2020 =
-
+= 1.0.0 - January 28 2020 =
+* Released on AeonWP
 
 
 == Theme License ==
@@ -75,5 +77,5 @@ AeonAccess is distributed under the terms of the GNU General Public License v2 o
 
 
 == Image License == 
-https://pxhere.com/en/photo/80036 [Creative Commons Zero (CC0) License]
-https://pxhere.com/en/photo/1040860 [Creative Commons Zero (CC0) License]
+https://pxhere.com/en/photo/80036 [Creative Commons Zero (CC0) License] Copyright Pxhere
+https://pxhere.com/en/photo/1040860 [Creative Commons Zero (CC0) License] Copyright Pxhere
