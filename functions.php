@@ -335,3 +335,8 @@ if ( ! function_exists( 'aeonaccess_breadcrumb_trail' ) ) {
  * Load dynamic css file
 */
 require get_template_directory() . '/inc/functions/dynamic-css.php';
+
+/**
+ * Add theme page.
+ */
+require get_template_directory() . '/inc/admin.php';
