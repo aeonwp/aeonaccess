@@ -91,3 +91,4 @@ do_action( 'aeonaccess_breadcrumb_hook' );
 ?>
 
 <div id="content" class="blog-wrapper">
+	<div class="row-wrap">

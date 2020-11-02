@@ -16,6 +16,7 @@
  */
 
 ?>
+</div><!-- #row-wrap -->
 </div><!-- #content -->
 
 <div class="site-footer">

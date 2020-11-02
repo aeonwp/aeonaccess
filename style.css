@@ -775,11 +775,12 @@ a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	z-index: 9;
-	margin: 0;
-	padding: 1em;
+	margin: 0 auto;
+	padding: 1em 15px;
 	font-size: 0.8em;
 	text-transform: uppercase;
 	font-weight: 700;
+	max-width: 1200px;
 }
 
 .main-navigation ul {
@@ -808,7 +809,9 @@ a:active {
 	padding: 15px 20px 3px 20px;
 	border-bottom: 2px solid transparent;
 }
-
+.main-navigation li:first-child a{
+	padding-left: 0;
+}
 .main-navigation a:hover,
 .main-navigation a:focus {
 	text-decoration: none;
@@ -912,6 +915,9 @@ a:active {
 }
 
 @media screen and (max-width: 768px) {
+	.main-navigation{
+		max-width: 100%;
+	}
 	#mobile-menu-toggle {
 		cursor: pointer;
 		display: inline-block;
@@ -1310,6 +1316,10 @@ a:active {
 .widget {
 	margin: 0 0 1.5em;
 	word-break: break-word;
+	background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    border: 1px solid #ebebeb;
 }
 
 .widget:last-of-type {
@@ -1349,7 +1359,7 @@ a:active {
 }
 
 .widget ul li {
-	margin-left: 20px;
+	margin-left: 0;
 	margin-bottom: .5em;
 	position: relative;
 }
@@ -1367,7 +1377,7 @@ a:active {
 .textwidget,
 .widget>ul,
 .widget-title {
-	padding: 20px 30px;
+	padding: 20px 0;
 }
 
 .widget_recent_entries ul li a {
@@ -1380,7 +1390,12 @@ a:active {
 .widget_nav_menu ul li {
 	word-break: break-word;
 }
-
+.recentcomments, 
+.widget_categories li, 
+.widget_recent_entries li {
+    position: relative;
+    padding-left: 16px!important;
+}
 .widget_categories ul li a,
 .widget_meta ul li a,
 .widget_recent_entries ul li a,
@@ -1392,7 +1407,19 @@ a:active {
 .widget .entry-meta ul li a {
 	text-transform: capitalize;
 }
-
+.recentcomments::before, 
+.widget_categories li::before, 
+.widget_recent_entries li::before {
+	content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    background-color: #000000;
+    opacity: .2;
+    margin-top: 15px;
+}
 .recentcomments a {
 	display: inline !important;
 	padding: 0 !important;
@@ -1400,7 +1427,7 @@ a:active {
 }
 
 .widget_search {
-	padding: 20px 30px;
+	padding: 0;
 	position: relative;
 }
 
@@ -1411,15 +1438,15 @@ a:active {
 .widget_search .search-form .search-field {
 	height: 52px;
 	padding: 6px 20px;
-	border: 1px solid #eee;
-	border-radius: 0;
+	border:0;
+	border-radius: 5px;
 	width: 100%;
 }
 
 .widget_search form input[type="submit"] {
 	position: absolute;
-	top: 20px;
-	right: 30px;
+	top: 0;
+	right: 0;
 	padding: 16px 19px 16px 19px;
 }
 
@@ -1511,8 +1538,7 @@ a:active {
 ---------------------------*/
 
 .page-header {
-	margin: 0;
-	border-bottom: 1px solid #eee;
+	margin: 0 0 15px;
 	overflow: hidden;
 	padding: 0 30px;
 }
@@ -1704,14 +1730,17 @@ object {
 }
 
 .site-branding {
-	margin: 0 1.5em 1.5em 1.5em;
-	width: 100%;
+	margin: 1.5em auto;
+	max-width: 1200px;
 	text-align: left;
+	padding: 0 15px;
 }
 
-@media screen and (min-width: 768px) {
-	.site-branding {
-		margin: 1.5em 1.5em 1.5em 3em;
+@media screen and (max-width: 768px) {
+	.site-branding{
+		max-width: 100%;
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 }
 
@@ -1744,9 +1773,8 @@ object {
 	.home .site-description {
 		font-size: 2em;
 		font-weight: 700;
-		width: 30%;
-		margin-top: 2em;
-		line-height: 1.2;
+		width: 50%;
+		margin-top: 0;
 	}
 }
 
@@ -1757,7 +1785,7 @@ object {
 	}
 
 	.home .site-description {
-		font-size: 3em;
+		font-size: 2em;
 	}
 }
 
@@ -1783,7 +1811,10 @@ object {
 	margin: 0 auto;
 	text-align: center;
 }
-
+.row-wrap{
+	margin-right: -15px;
+	margin-left: -15px;
+}
 body:not(.both-sidebars) .blog-wrapper {
 	max-width: 1200px;
 }
@@ -1797,6 +1828,11 @@ body:not(.both-sidebars) .blog-wrapper {
 	padding: 1.5em;
 	overflow: hidden;
 	text-align: left;
+	background-color: #fff;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    border: 1px solid #ebebeb;
 }
 
 .blog.two-column .post-wrapper {
@@ -1865,7 +1901,7 @@ body:not(.both-sidebars) .blog-wrapper {
 
 @media screen and (min-width: 768px) {
 	.entry-header .entry-title {
-		font-size: 3em;
+		font-size: 2.5em;
 	}
 }
 
@@ -2002,7 +2038,7 @@ body:not(.both-sidebars) .blog-wrapper {
 }
 
 .breadcrumbs {
-	padding: 20px;
+	padding: 20px 0;
 }
 
 .breadcrumb ul {
@@ -2036,6 +2072,13 @@ body:not(.both-sidebars) .blog-wrapper {
 @media only screen and (max-width: 768px) {
 	.breadcrumb {
 		margin: 0 0;
+		padding:0 15px;
+	}
+	.row-wrap{
+		margin: auto;
+	}
+	.comments-wrapper{
+		padding: 0;
 	}
 }
 
@@ -2058,7 +2101,7 @@ body:not(.both-sidebars) .blog-wrapper {
 # Sidebar Options
 ===============================*/
 #primary {
-	width: 68%;
+	width: 69%;
 	display: inline-block;
 	vertical-align: top;
 	padding-right: 15px;
@@ -2161,6 +2204,10 @@ body:not(.both-sidebars) .blog-wrapper {
 	-o-transition: 500ms;
 	transition: 500ms;
 	background: #000;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	opacity: 0.8;
 }
 
 #toTop:hover {
@@ -2169,11 +2216,11 @@ body:not(.both-sidebars) .blog-wrapper {
 
 .go-to-top {
 	line-height: 2;
-	display: none;
-	position: fixed;
-	bottom: 45px;
-	right: 15px;
-	padding: 5px 15px 0 15px;
+    display: none;
+    position: fixed;
+    bottom: 45px;
+    right: 20px;
+    padding: 5px 10px 0 10px;
 }
 
 .gotop span i {
