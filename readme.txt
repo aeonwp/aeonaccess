@@ -50,6 +50,10 @@ We would love to hear your ideas.
 You can use email us at aeonwpofficial@gmail.com
 
 == Changelog ==
+= 1.0.2 - November 02 2020 =
+* Fixed some minor CSS issues
+* Added about page
+
 = 1.0.1 - October 20 2020 =
 * Released on WordPress.Org 
 
@@ -58,7 +62,7 @@ You can use email us at aeonwpofficial@gmail.com
 
 
 == Theme License ==
-AeonAccess WordPress Theme, Copyright 2019 AeonWP
+AeonAccess WordPress Theme, Copyright 2020 AeonWP
 AeonAccess is distributed under the terms of the GNU General Public License v2 or later.
 
 == Credits ==
