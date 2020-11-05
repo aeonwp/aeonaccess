@@ -877,7 +877,7 @@ a:active {
 .main-navigation ul ul li:not(:first-child) {
 	border-top: none;
 }
-
+.main-navigation li:focus-within > ul,
 .main-navigation li:focus > ul,
 .main-navigation li:hover > ul,
 .keyboard-dropdown {
