@@ -50,6 +50,9 @@ We would love to hear your ideas.
 You can use email us at aeonwpofficial@gmail.com
 
 == Changelog ==
+= 1.0.3 - November 09 2020 =
+* Fixed Reviewer Issues
+
 = 1.0.2 - November 02 2020 =
 * Fixed some minor CSS issues
 * Added about page
@@ -71,7 +74,6 @@ AeonAccess is distributed under the terms of the GNU General Public License v2 o
 * Based on Twenty Nineteen WordPress Theme, Copyright 2018 WordPress.org, [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * Based on AeonBlog Plus, Copyright 2019 Aeon Theme, [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
-* Google Fonts - Apache License, version 2.0
 * Font-Awesome https://github.com/FortAwesome/Font-Awesome FontAwesome 4.6.3 Copyright 2012 Dave Gandy Font License: SIL OFL 1.1 Code License: MIT License http://fontawesome.io/license/
 * theia-sticky-sidebar https://github.com/WeCodePixels/theia-sticky-sidebar [MIT](http://opensource.org/licenses/MIT)
 * BreadcrumbTrail Copyright (c) 2008 - 2017, Justin Tadlock https://themehybrid.com/plugins/breadcrumb-trail http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -83,3 +85,5 @@ AeonAccess is distributed under the terms of the GNU General Public License v2 o
 == Image License == 
 https://pxhere.com/en/photo/80036 [Creative Commons Zero (CC0) License] Copyright Pxhere
 https://pxhere.com/en/photo/1040860 [Creative Commons Zero (CC0) License] Copyright Pxhere
+aeonwp.png is self created and license under GPL. 
+

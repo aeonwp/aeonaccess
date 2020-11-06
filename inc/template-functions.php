@@ -23,7 +23,7 @@ function aeonaccess_body_classes( $classes ) {
 		$classes[] = 'hfeed';
 
 	} else {
-		$classes[] = get_theme_mod( 'aeonaccess_sidebar_options', 'right-sidebar' );
+		$classes[] = esc_attr(get_theme_mod( 'aeonaccess_sidebar_options', 'right-sidebar' ));
 	}
 	return $classes;
 }
