@@ -8,6 +8,7 @@
 */
 (function($) {
 	"use strict";
+    var KEYCODE_TAB = 9;
 		//Check to see if the window is top if not then display button
 		jQuery(window).scroll(function($){
 			if (jQuery(this).scrollTop() > 100) {
