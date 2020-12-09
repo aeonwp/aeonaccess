@@ -50,6 +50,10 @@ We would love to hear your ideas.
 You can use email us at aeonwpofficial@gmail.com
 
 == Changelog ==
+= 1.0.4 - December 09 2020 =
+* Fixed Sticky sidebar option
+* Fixed go to the top option
+
 = 1.0.3 - November 09 2020 =
 * Fixed Reviewer Issues
 

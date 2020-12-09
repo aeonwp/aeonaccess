@@ -65,7 +65,9 @@
 		/**
 		 * Go to Top Option.
 		 */
-		do_action( 'aeonaccess_go_to_top_hook' );
+		if ( get_theme_mod( 'aeonaccess-go-to-top', 1 ) == 1 ) {
+			 do_action( 'aeonaccess_go_to_top_hook' );
+		}
 		?>
 	</footer><!-- #colophon -->
 </div>

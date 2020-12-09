@@ -105,14 +105,12 @@ if ( ! function_exists( 'aeonaccess_go_to_top' ) ) {
 	 * @since AeonAccess 1.0.0
 	 */
 	function aeonaccess_go_to_top() {
-		if ( get_theme_mod( 'aeonaccess-go-to-top', 1 ) === 1 ) {
 			?>
 			<a id="toTop" class="go-to-top" href="#">
 				<?php echo aeonaccess_get_svg( array( 'icon' => 'angle-double-up' ) ); ?>
 				<span class="screen-reader-text"><?php esc_html_e( 'Go to top', 'aeonaccess' ); ?></span>
 			</a>
 			<?php
-		}
 	}
 	add_action( 'aeonaccess_go_to_top_hook', 'aeonaccess_go_to_top', 20 );
 }
