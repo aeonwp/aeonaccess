@@ -28,7 +28,7 @@
 <?php wp_body_open(); ?>
 	<header id="masthead" class="site-header" role="banner" 
 	<?php
-	if ( has_header_image() ) {
+	if ( has_header_image() && (is_home() || is_front_page()) ) {
 		echo 'style="
 		background: url(' . esc_url( get_header_image() ) . ') no-repeat top center; 
 		-webkit-background-size: cover;
