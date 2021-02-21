@@ -50,6 +50,9 @@ We would love to hear your ideas.
 You can use email us at aeonwpofficial@gmail.com
 
 == Changelog ==
+= 1.0.5 - February 21 2021 =
+* Fixed Header Image in static page
+
 = 1.0.4 - December 09 2020 =
 * Fixed Sticky sidebar option
 * Fixed go to the top option
