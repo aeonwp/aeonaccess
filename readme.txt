@@ -1,7 +1,7 @@
 === Aeon Access ===
 Contributors: aeontheme
 Requires at least: 5.0
-Tested up to: 5.5
+Tested up to: 5.7
 Requires PHP: 5.6
 Stable tag: 1.0.0
 License:      GNU General Public License v2 or later
@@ -50,6 +50,10 @@ We would love to hear your ideas.
 You can use email us at aeonwpofficial@gmail.com
 
 == Changelog ==
+= 1.0.6 - March 22 2021 =
+* Tested with latest WP version
+* Changed pro link
+
 = 1.0.5 - February 21 2021 =
 * Fixed Header Image in static page
 

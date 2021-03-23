@@ -74,7 +74,7 @@ final class AeonAccess_Customize {
 				'aeonaccess_plus',
 				array(
 					'pro_text' => esc_html__( 'Unlock more features with Plus', 'aeonaccess' ),
-					'pro_url'  => 'https://www.templatesell.com/item/aeonaccess-plus/',
+					'pro_url'  => 'https://aeonwp.com/aeonaccess-plus/',
 					'priority' => '1',
 				)
 			)

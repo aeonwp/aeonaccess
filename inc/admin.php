@@ -46,7 +46,7 @@ function aeonaccess_page() {
 		<div class="welcome-panel">
 			<div class="welcome-panel-content">
 				<h2><?php esc_html_e( 'Upgrade to Pro', 'aeonaccess' ); ?></h2><br>
-				<a href="https://www.templatesell.com/item/aeonaccess-plus/"><?php esc_html_e( 'AeonAccess is available in a premium and free version.', 'aeonaccess' ); ?></a><br><br>
+				<a href="https://aeonwp.com/aeonaccess-plus/"><?php esc_html_e( 'AeonAccess is available in a premium and free version.', 'aeonaccess' ); ?></a><br><br>
 				<img src="<?php echo esc_url( get_template_directory_uri() . '/images/access.jpg' ); ?>" alt="" height="300px">
 				<br><br>
 			</div>
@@ -60,7 +60,7 @@ function aeonaccess_page() {
 				<?php _e( 'You need to have an active sidebar, and enable the option in the customzer.', 'aeonaccess' ); ?><br>
 				<?php _e( 'To show your biography, you need to add the content in your WordPress user profile.', 'aeonaccess' ); ?><br>
 				<h3><?php esc_html_e( 'Can you add more features?', 'aeonaccess' ); ?></h3>
-				<?php esc_html_e( 'The Plus version of the theme has additional features.', 'aeonaccess' ); ?> <?php _e( 'You can learn more about the premium version of the theme here: <a href="https://www.templatesell.com/item/aeonaccess-plus/">AeonAccess Plus</a>.', 'aeonaccess' ); ?><br>
+				<?php esc_html_e( 'The Plus version of the theme has additional features.', 'aeonaccess' ); ?> <?php _e( 'You can learn more about the premium version of the theme here: <a href="https://aeonwp.com/aeonaccess-plus/">AeonAccess Plus</a>.', 'aeonaccess' ); ?><br>
 				<?php _e( 'We also offer a <a href="https://aeonwp.com/services/">customization service</a>. ', 'aeonaccess' ); ?><br>
 				<h3><?php esc_html_e( 'Where can I download demo content?', 'aeonaccess' ); ?></h3>
 				<?php _e( 'You can download the demo content on our <a href="https://aeonwp.com/aeonaccess/#Demo_content">website</a>.', 'aeonaccess' ); ?>
