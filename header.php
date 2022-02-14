@@ -56,8 +56,15 @@
 		?>
 		</nav><!-- #site-navigation -->
 		<?php
-	}
-	?>
+	}else{ ?>
+	<nav id="site-navigation" class="main-navigation">
+		<ul id="main-menu">
+			<?php
+			wp_list_pages(array('depth' => 0, 'title_li' => ''));
+			?>
+		</ul>
+	</nav>
+	<?php } ?>
 
 		<!-- Start Header Branding -->
 		<div class="site-branding">
